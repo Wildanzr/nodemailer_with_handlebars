@@ -8,8 +8,6 @@ const dotenv = require('dotenv')
 // Load env
 dotenv.config()
 
-console.log(process.env.OAUTH_EMAIL)
-
 const oauth2Client = new OAuth2(
   process.env.OAUTH_CLIENT_ID,
   process.env.OAUTH_CLIENT_SECRET,
@@ -60,7 +58,7 @@ const mailOptions = {
   to: 'graita.sukma@gmail.com',
   subject: 'Aktivasi Akun LetsCode',
   text: 'Hello from nodemailer',
-  template: 'register',
+  template: 'reset',
   context: {
     name: 'Miawwwww',
     link: 'https://letscode.wildanzr.my.id/auth/activate?token=d6be7604a331d2df8ca3e157e655d59ec9180f07',
