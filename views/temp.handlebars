@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aktivasi Akun</title>
+    <style>
+        /* Tambahkan gaya CSS Anda di sini */
+        .wrapper {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            padding: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: #00A7E1;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0 0 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #00A7E1;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #F1F1F1;
+            padding: 10px;
+            color: #777;
+            text-align: center;
+            margin-top: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Aktivasi Akun</h1>
+        </div>
+        <div class="content">
+            <p>Hai {{name}},</p>
+            <p>
+                Wah, kamu udah gabung di LetsCode! Terima kasih banget deh udah pilih kita jadi tempat belajar kamu. Di
+                LetsCode, kami enggak cuma nge-hipnotis kamu dengan kursus pembelajaran yang keren banget, tapi juga
+                ngasih fitur-fitur canggih dan pengalaman belajar yang seru banget. Eits tunggu, kamu harus aktivasi akun dulu ya! Caranya gampang kok, tinggal klik tombol di bawah ini:
+            </p>
+            <p><a class="button" href="{{link}}">Aktivasi Akun</a></p>
+            <p>Jika tombol di atas tidak berfungsi, salin dan tempel tautan berikut ke web browser kamu:</p>
+            <p>{{alternative}}</p>
+
+            <p>
+                Jangan lupa, tim LetsCode selalu siap bantu kamu kalau ada pertanyaan atau masalah yang kamu hadapi. Sekali lagi, selamat datang di dunia baru LetsCode! Kita enggak sabar nungguin kamu berkembang dan sukses.
+            </p>
+
+            <p>Terima kasih,</p>
+            <p>Mimin LetsCode</p>
+        </div>
+        <div class="footer">
+            <p>Salam hangat dari mimin LetsCode</p>
+        </div>
+    </div>
+</body>
+
+</html>

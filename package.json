@@ -11,6 +11,8 @@
   "author": "Danzr",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "googleapis": "^114.0.0",
     "nodemailer": "^6.9.1",
     "nodemailer-express-handlebars": "^6.1.0"
   },
